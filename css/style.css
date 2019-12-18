@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    display: flex;
+    flex-flow: column;
+     height: 100vh;
+}
+.container > * {
+    flex: 1 100%;
+}
+
+.header{
+    flex:1;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+.aside{
+    flex-direction: column;
+    flex:1 ;
+    background: darkgoldenrod;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+   display: flex;
+    flex:4;
+    background: blue;
+}
+
+.footer{
+    flex: 1 5%;
+    background: blueviolet;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex: 6 100%;
+    align-content: center;
+    margin: 40px;
+}
+article{
+    flex:1;
+    background: gray;
+    margin: 10px;
+}
+.jours{
+    text-align: center;
+}
+figure{
+    border-bottom: black solid 1px;
+
+}

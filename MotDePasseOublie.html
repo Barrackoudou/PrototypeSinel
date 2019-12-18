@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/MotDePasseOublie.css">
+    <meta charset="UTF-8">
+    <title>Mot de passe oublié Sinel</title>
+</head>
+<body id="container">
+
+    <header></header>
+
+    <section>
+        <img src="images/logoSinel.png" alt="Logo Sinel">
+        <p>Bienvenue</p>
+        <form action="" method="post">
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" placeholder="Saisissez votre Identifiant pour récupérer votre mot de passe" required minlength="2" maxlength="22" autofocus>
+            <script type="text/javascript">
+                function showMessage(){
+                    alert("Identifiant envoyé, vous recevrez votre nouveau mot de passe prochainement");
+                }
+            </script>
+            <button type="submit" onClick='showMessage()'>
+               Valider
+           </button>
+            <input type="button" value="Retour" onclick="history.back()">
+        </form>
+
+    </section>
+
+    <footer></footer>
+
+
+</body>
+</html>
